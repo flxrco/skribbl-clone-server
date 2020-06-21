@@ -8,6 +8,6 @@ export default class ConfigUtils {
   }
 
   static get WS_PORT(): number {
-    return WS_PORT ? parseInt(WS_PORT) : 3001
+    return WS_PORT ? parseInt(WS_PORT) : 3000
   }
 }
