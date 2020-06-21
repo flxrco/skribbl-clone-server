@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common'
-import { WsGatewaysModule } from './ws-gateways/ws-gateways.module';
+import { GatewaysModule } from './gateways/gateways.module';
 
 @Module({
-  imports: [WsGatewaysModule],
+  imports: [GatewaysModule],
   controllers: [],
   providers: [],
 })
